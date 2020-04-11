@@ -17,3 +17,5 @@
 5. Watching Videos on Flask
     - https://www.youtube.com/watch?v=PTZiDnuC86g&feature=youtu.be
     - https://www.youtube.com/watch?v=w25ea_I89iM&feature=youtu.be
+6. Harverd Class Course
+    - https://online-learning.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0
