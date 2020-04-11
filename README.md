@@ -14,3 +14,6 @@
  - To get a better understanding of how to impliment
 3. Import Flask
 4. Testing different fucntions on VS code
+5. Watching Videos on Flask
+    - https://www.youtube.com/watch?v=PTZiDnuC86g&feature=youtu.be
+    - https://www.youtube.com/watch?v=w25ea_I89iM&feature=youtu.be
