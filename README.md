@@ -9,6 +9,8 @@
 3. Be able to run code successfully on VSCode [Completed]
 
 ## Week 2
+
+### TODO:
 1. Read Flask Documentation
 2. Watch videos on Flask
  - To get a better understanding of how to impliment
