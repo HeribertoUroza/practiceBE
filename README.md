@@ -25,5 +25,5 @@
 ## Week 3
 
 ### TODO:
-1. Still learning with the different videos
+1. Continued learning with the different videos
     - Testing on Repl.it 
