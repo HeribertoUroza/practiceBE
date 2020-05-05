@@ -29,3 +29,5 @@
     - Testing on Repl.it 
 2. Test Route created and working
     - Test with front end needed
+    - Test API to ensure data comes in
+3. Move API's from front end to back end
