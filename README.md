@@ -31,3 +31,32 @@
     - Test with front end needed
     - Test API to ensure data comes in
 3. Move API's from front end to back end
+
+
+## API's to Use
+
+### Random Cocktail Generator
+https://the-cocktail-db.p.rapidapi.com/random.php
+
+![API_Sample](assets/RandomCocktailAPISample.png)
+
+### Nasa Picture of the Day [UPDATED]
+https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+
+![API_Sample](assets/NasaPic.png)
+
+### Sunrise and Sunset
+https://api.sunrise-sunset.org/json?lat=40.785091&lng=-73.968285&date=today
+
+![API_Sample](assets/SunriseSunset.png)
+
+
+### Weather API
+https://api.darksky.net/forecast/[KEY]/[LAT],[LON]
+
+![API_Sample](assets/Weather.png)
+
+### Giphy API
+api.giphy.com/v1/gifs/search
+
+<!-- need to add sample -->
