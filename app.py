@@ -38,9 +38,16 @@ def nasa():
 def gif():
     if request.method == 'POST':
         query = json.loads(request.data.decode('UTF-8'))
-        print('python', query['query'])
+
+        params = {
+            'api_key': '',
+            'q': query['query'],
+            'limit': '1'
+        }
+
+        r = requests.get('https://api.giphy.com/v1/gifs/search', params=params)
+        return r.json()
         
-    return 'RETURNED'
 
 if __name__ == '__main__':
     app.debug = True
