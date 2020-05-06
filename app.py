@@ -1,6 +1,7 @@
-from flask import Flask
+from flask import Flask, request
 from flask_cors import CORS
 import requests
+import json
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -32,6 +33,14 @@ def nasa():
 
     r = requests.get(url)
     return r.json()
+
+@app.route('/gif', methods=['POST'])
+def gif():
+    if request.method == 'POST':
+        query = json.loads(request.data.decode('UTF-8'))
+        print('python', query['query'])
+        
+    return 'RETURNED'
 
 if __name__ == '__main__':
     app.debug = True
