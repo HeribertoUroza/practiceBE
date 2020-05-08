@@ -31,6 +31,7 @@
     - Test with front end needed
     - Test API to ensure data comes in
 3. Move API's from front end to back end
+4. Deploy to Heroku
 
 
 ## API's to Use
