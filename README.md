@@ -60,4 +60,6 @@ https://api.darksky.net/forecast/[KEY]/[LAT],[LON]
 ### Giphy API
 api.giphy.com/v1/gifs/search
 
+![API_Sample](assets/GifAPI.png)
+
 <!-- need to add sample -->
