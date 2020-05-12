@@ -27,12 +27,12 @@
 ### TODO:
 1. Continued learning with the different videos
     - Testing on Repl.it 
-2. Test Route created and working
+2. Test Route created and working [Completed]
     - Test with front end needed
     - Test API to ensure data comes in
 3. Move API's from front end to back end
 4. Deploy to Heroku
-
+5. Make this repo public [Completed] 
 
 ## API's to Use
 
