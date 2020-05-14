@@ -25,12 +25,12 @@
 ## Week 3
 
 ### TODO:
-1. Continued learning with the different videos
+1. Continued learning with the different videos [Completed]
     - Testing on Repl.it 
 2. Test Route created and working [Completed]
     - Test with front end needed
     - Test API to ensure data comes in
-3. Move API's from front end to back end
+3. Move API's from front end to back end [Completed]
 4. Deploy to Heroku
 5. Make this repo public [Completed] 
 
