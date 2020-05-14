@@ -18,9 +18,10 @@ def cocktail():
     r = requests.get(url, headers=headers)
     return r.json()
 
-@app.route('/weather')
+@app.route('/weather', methods=['GET'])
 def weather():
-    weatherAPI = ''
+    if request.method == 'GET':
+        weatherAPI = ''
     url = 'https://api.darksky.net/forecast/' + weatherAPI + '/40.7829,73.9654'
     
     r = requests.get(url)
