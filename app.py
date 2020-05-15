@@ -13,7 +13,7 @@ def test():
 
 @app.route('/cocktail')
 def cocktail():
-    cocktailAPI = os.environ['cocktailAPI']
+    cocktailAPI = os.environ.get('cocktailAPI')
     url = 'https://the-cocktail-db.p.rapidapi.com/random.php'
     headers = {
         "x-rapidapi-host": 'the-cocktail-db.p.rapidapi.com',
@@ -26,7 +26,7 @@ def cocktail():
 @app.route('/weather', methods=['GET'])
 def weather():
     if request.method == 'GET':
-        weatherAPI = os.environ['weatherAPI']
+        weatherAPI = os.environ.get('weatherAPI')
         url = 'https://api.darksky.net/forecast/' + weatherAPI + '/40.7829,73.9654'
     
         r = requests.get(url)
@@ -34,7 +34,7 @@ def weather():
 
 @app.route('/nasa')
 def nasa():
-    nasaAPI = os.environ['nasaAPI']
+    nasaAPI = os.environ.get('nasaAPI')
     url = 'https://api.nasa.gov/planetary/apod?api_key=' + nasaAPI
 
     r = requests.get(url)
@@ -46,7 +46,7 @@ def gif():
         query = json.loads(request.data.decode('UTF-8'))
 
         params = {
-            'api_key': os.environ['gifAPI'],
+            'api_key': os.environ.get('gifAPI'),
             'q': query['query'],
             'limit': '1'
         }
