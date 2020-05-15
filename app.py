@@ -7,6 +7,10 @@ import json
 app = Flask(__name__)
 cors = CORS(app)
 
+@app.route('/')
+def test():
+    return 'ACTIVE'
+
 @app.route('/cocktail')
 def cocktail():
     cocktailAPI = os.environ['cocktailAPI']
