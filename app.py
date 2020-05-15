@@ -6,7 +6,6 @@ import json
 
 app = Flask(__name__)
 cors = CORS(app)
-conn = boto.connection_s3()
 
 @app.route('/cocktail')
 def cocktail():
