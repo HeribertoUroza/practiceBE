@@ -10,6 +10,7 @@ pylint = "*"
 flask = "*"
 requests = "*"
 flask-cors = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
