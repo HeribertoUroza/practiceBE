@@ -31,8 +31,14 @@
     - Test with front end needed
     - Test API to ensure data comes in
 3. Move API's from front end to back end [Completed]
-4. Deploy to Heroku
+4. Deploy to Heroku [Completed]
 5. Make this repo public [Completed] 
+
+## Week 4
+
+### TODO:
+1. Currently not working after removing some packages
+    - Need to see which made it stop working
 
 ## API's to Use
 
